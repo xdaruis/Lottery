@@ -6,4 +6,4 @@ function displayAlert() {
     }
 }
 
-var winnerId = Math.floor(Math.random() * 2);
+let winnerId = Math.floor(Math.random() * 2);
