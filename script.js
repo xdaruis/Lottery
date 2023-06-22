@@ -1,5 +1,4 @@
-const buttonsNum = 3;
-const winnerId = Math.floor(Math.random() * buttonsNum);
+const winnerId = Math.floor(Math.random() * 3);
 
 function displayAlert() {
     if (event.srcElement.id == winnerId) {
